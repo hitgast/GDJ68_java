@@ -26,7 +26,7 @@ public class Condition3 {
 				System.out.print("세후 금액 : ");
 				System.out.println(sal - (int)tax);
 			}
-			else {
+			else if(onetwo == 2) {
 				System.out.println("계약직 입니다" + "\n");
 				System.out.print("월급 : ");
 				int sal = sc.nextInt();
@@ -34,6 +34,9 @@ public class Condition3 {
 				
 				System.out.print("세후 금액 : ");
 				System.out.println(sal - (int)tax);
+			}
+			else {
+				System.out.println("다시 눌러주세요.");
 			}
 		}
 		else {
