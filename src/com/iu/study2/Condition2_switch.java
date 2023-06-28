@@ -1,6 +1,6 @@
 package com.iu.study2;
 
-public class Condition2 {
+public class Condition2_switch {
 	public static void main(String[] args) {
 		int guk = 100;
 		int eng = 87;
