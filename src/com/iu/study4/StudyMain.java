@@ -22,7 +22,7 @@ public class StudyMain {
 //		stuArr[1].stuValues();
 		
 		
-		stuView.view(stu1.name, stu1.studNo);
+		//stuView.view(stu1.name, stu1.studNo);
 		
 		stuView.viewAll(new String[] {"윈터", "카리나"});
 

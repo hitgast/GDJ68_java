@@ -1,6 +1,6 @@
 package test;
 
-class Solution {
+public class Solution {
 //    public int solution(int[] number) {
 //        int answer = 0;
 //        
@@ -51,15 +51,22 @@ class Solution {
 //		System.out.println(sol.solution(t, p));
 //      
 //	}
-	
+	int num1;
 	public static void main(String[] args){
-		double num1 = 7;
-		double num2 = 3;
+//		double num1 = 7;
+//		double num2 = 3;
+//		
+//		if(0<=num1 && num1<=100 && 0<=num2 && num2<=100){
+//			double answer = (num1 / num2) * 1000;
+//			System.out.println((int)answer);
+//	    }
 		
-		if(0<=num1 && num1<=100 && 0<=num2 && num2<=100){
-			double answer = (num1 / num2) * 1000;
-			System.out.println((int)answer);
-	    }
+		Solution sol = new Solution();
+		
+		int num1;
+				
+		//System.out.println(num1);
+		System.out.println(sol.num1);
 		
 	}
 	
